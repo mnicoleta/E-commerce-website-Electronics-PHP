@@ -1,0 +1,346 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Navbar */
+.bg-nav {
+    /* background-color: #040c38; */
+    /* background-color: #90AACB; */
+    /* background-color: #6055eb !important; */
+    background-color: rgba(63, 2, 104, 0.7);
+    /* box-shadow: 0 4px 8px 10px rgba(117, 162, 131, 0.874), 0 6px 25px 0 rgba(22, 109, 25, 0.951); */
+
+
+
+}
+
+.n-brand {
+    font-weight: 900;
+    color: white !important;
+
+}
+
+
+
+.menu-nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white !important;
+
+
+}
+
+.menu-nav ul li a:hover {
+    color: rgb(6, 84, 45) !important;
+    font-size: larger;
+}
+
+.left-side {
+    justify-content: end;
+}
+
+.mr-auto {
+    margin-right: auto !important;
+}
+
+.navbar-toggleable-md .navbar-collapse {
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.card-a {
+
+    position: relative;
+    top: 3rem;
+    color: black;
+    font-weight: bold;
+
+}
+
+.card-d {
+    position: absolute;
+    left: 40rem;
+    top: 12rem;
+}
+
+.card-d1 {
+    position: absolute;
+    left: 35rem;
+    top: -5rem !important;
+}
+
+.card-s {
+    margin-top: 5px;
+
+}
+
+.bg-card {
+    background-color: #ececec;
+    padding: 1rem;
+}
+
+.bg-card1 {
+    /* background-color: #f1f2f6; */
+    background-color: rgba(63, 2, 104, 0.3) !important;
+    padding: 1rem;
+}
+
+hr {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+
+/* CONTENT */
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 0rem;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-primary {
+    background-color: #575fcf;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: #05c46b;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #0be881;
+    color: black;
+}
+
+.btn-danger {
+    background-color: #ef5777;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #f53b57;
+    color: black;
+}
+
+.success {
+    color: #05c46b;
+    font-weight: bold;
+}
+
+
+
+
+/* MAIN CONTENT */
+
+
+
+.main-content {
+
+    position: relative;
+    /* background-color: #bbc0d1; */
+    background-color: rgba(63, 2, 104, 0.3);
+    padding: 0% 8%;
+
+
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+
+
+}
+
+.wrapper1 {
+    padding: 5%;
+    width: 80%;
+    margin: 0 auto;
+
+    padding-bottom: 16rem;
+
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.success {
+    color: #05c46b;
+    font-weight: bold;
+}
+
+.error {
+    color: #ff3f34;
+}
+
+.col-4 {
+
+    background-color: rgba(63, 2, 104, 0.3);
+    margin: 1%;
+    margin-left: 10%;
+
+}
+
+.border {
+    box-shadow: 0 4px 8px 10px rgba(195, 155, 96, 0.874), 0 6px 25px 0 rgba(109, 39, 22, 0.951);
+}
+
+
+
+.col-3 {
+    background-color: rgba(63, 2, 104, 0.3);
+    margin-left: 5px;
+
+
+
+}
+
+/* background-color:   #24153f; */
+
+/* FOOTER */
+.footer {
+    /* background-color: #90AACB; */
+    /* background-color: #6055eb !important; */
+    background-color: rgba(63, 2, 104, 0.5);
+    color: white;
+    font-weight: bold;
+}
+
+/* LOGIN */
+
+.cardC {
+    float: center;
+    background-color: #324192;
+    margin-left: 30rem;
+    margin-top: 10rem;
+    color: white;
+    font-weight: bold;
+
+}
+
+.footerL a {
+
+    color: rgb(180, 112, 112);
+    text-decoration: none;
+}
+
+.footerL {
+    text-align: center;
+    border-top: 0.1px solid rgb(194, 156, 156);
+    padding: 4px 0px 4px 0px;
+}
+
+.LogF {
+    border: 5px solid;
+    border-radius: 4px;
+
+    font-weight: bold;
+    padding: 4px;
+}
+
+
+
+/* Management Angajati */
+
+
+
+.tbl {
+    color: #05074a;
+    background-color: white !important;
+    border: 1px solid #4184dc;
+
+}
+
+
+/* Manage autovehicule */
+
+.btn-center {
+    margin-left: 40%;
+    padding-top: 3%;
+}
+
+.btn-center1 {
+    margin-left: 30%;
+    padding-top: 0%;
+    margin-top: -10px;
+}
+
+.bg-autovehicul {
+    background-color: #f1f2f6;
+}
+
+
+/* Adauga Angajati */
+.tbl-45 {
+    width: 56%;
+
+}
+
+
+
+table tr td {
+    padding: 1%;
+    padding-right: 20%;
+    width: 80%;
+
+    /* box-shadow: 0 4px 8px 10px rgba(158, 201, 236, 0.874), 0 6px 20px 0 rgba(255, 241, 241, 0.951); */
+    /* box-shadow: 0 4px 8px 10px rgba(5, 20, 34, 0.874), 0 6px 20px 0 rgba(37, 32, 32, 0.951); */
+}
+
+
+
+/* MANAGE ANGAJATI */
+.table-position {
+    margin-left: 4%;
+}
+
+input[type=text] {
+    color: rgb(13, 0, 128);
+    width: 300px;
+}
+
+input[type=email] {
+    color: rgb(13, 0, 128);
+    width: 300px;
+}
+
+input[type=tel] {
+    color: rgb(13, 0, 128);
+    width: 300px;
+}
+
+input[type=number] {
+    color: rgb(13, 0, 128);
+    width: 300px;
+}
+
+/* manage categorii */
+.table-positionCateg {
+    margin-left: 8%;
+}
